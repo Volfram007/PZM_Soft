@@ -1,0 +1,46 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <VerInfo_Keys>package=ptz.$(MSBuildProjectName);label=Авторасчет Fronius;versionCode=2;versionName=2.0.0;persistent=False;restoreAnyVersion=False;installLocation=auto;largeHeap=False;theme=TitleBar;hardwareAccelerated=true;apiKey=</VerInfo_Keys>
+        <BT_BuildType>Debug</BT_BuildType>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <Android_LauncherIcon36>Icon PNG\Icon\90b0cb31-7dff-439b-8d6d-ee4e773b2e20_36x36.png</Android_LauncherIcon36>
+        <Android_LauncherIcon48>Icon PNG\Icon\90b0cb31-7dff-439b-8d6d-ee4e773b2e20_48x48.png</Android_LauncherIcon48>
+        <Android_LauncherIcon72>Icon PNG\Icon\90b0cb31-7dff-439b-8d6d-ee4e773b2e20_72x72.png</Android_LauncherIcon72>
+        <Android_LauncherIcon96>Icon PNG\Icon\90b0cb31-7dff-439b-8d6d-ee4e773b2e20_96x96.png</Android_LauncherIcon96>
+        <Android_LauncherIcon144>Icon PNG\Icon\90b0cb31-7dff-439b-8d6d-ee4e773b2e20_144x144.png</Android_LauncherIcon144>
+        <Android_SplashImage426>Icon PNG\Фон\_crazy_welder_e7b05c2e-6b5d-4f35-9f66-f897d6d04df3_426x320.png</Android_SplashImage426>
+        <Android_SplashImage470>Icon PNG\Фон\_crazy_welder_e7b05c2e-6b5d-4f35-9f66-f897d6d04df3_470x320.png</Android_SplashImage470>
+        <Android_SplashImage640>Icon PNG\Фон\_crazy_welder_e7b05c2e-6b5d-4f35-9f66-f897d6d04df3_640x480.png</Android_SplashImage640>
+        <Android_SplashImage960>Icon PNG\Фон\_crazy_welder_e7b05c2e-6b5d-4f35-9f66-f897d6d04df3_960x720.png</Android_SplashImage960>
+        <AUP_ACCESS_COARSE_LOCATION>true</AUP_ACCESS_COARSE_LOCATION>
+        <AUP_ACCESS_FINE_LOCATION>true</AUP_ACCESS_FINE_LOCATION>
+        <AUP_CALL_PHONE>true</AUP_CALL_PHONE>
+        <AUP_CAMERA>true</AUP_CAMERA>
+        <AUP_INTERNET>true</AUP_INTERNET>
+        <AUP_READ_CALENDAR>true</AUP_READ_CALENDAR>
+        <AUP_READ_EXTERNAL_STORAGE>true</AUP_READ_EXTERNAL_STORAGE>
+        <AUP_WRITE_CALENDAR>true</AUP_WRITE_CALENDAR>
+        <AUP_WRITE_EXTERNAL_STORAGE>true</AUP_WRITE_EXTERNAL_STORAGE>
+        <AUP_READ_PHONE_STATE>true</AUP_READ_PHONE_STATE>
+        <Android_NotificationIcon24>$(BDS)\bin\Artwork\Android\FM_NotificationIcon_24x24.png</Android_NotificationIcon24>
+        <Android_NotificationIcon36>$(BDS)\bin\Artwork\Android\FM_NotificationIcon_36x36.png</Android_NotificationIcon36>
+        <Android_NotificationIcon48>$(BDS)\bin\Artwork\Android\FM_NotificationIcon_48x48.png</Android_NotificationIcon48>
+        <Android_NotificationIcon72>$(BDS)\bin\Artwork\Android\FM_NotificationIcon_72x72.png</Android_NotificationIcon72>
+        <Android_NotificationIcon96>$(BDS)\bin\Artwork\Android\FM_NotificationIcon_96x96.png</Android_NotificationIcon96>
+        <Android_LauncherIcon192>Icon PNG\Icon\90b0cb31-7dff-439b-8d6d-ee4e773b2e20_192x192.png</Android_LauncherIcon192>
+        <VerInfo_Build>2</VerInfo_Build>
+        <Android_NotificationAccentColor>#000000</Android_NotificationAccentColor>
+        <DCC_DcpOutput>tmp\</DCC_DcpOutput>
+        <DCC_BplOutput>tmp\</DCC_BplOutput>
+        <DCC_ExeOutput>EXE\Android\</DCC_ExeOutput>
+        <DCC_DcuOutput>tmp\</DCC_DcuOutput>
+    </PropertyGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Delphi.Personality.12</Borland.Personality>
+        <Borland.ProjectType>OptionSet</Borland.ProjectType>
+        <BorlandProject>
+            <Delphi.Personality/>
+        </BorlandProject>
+        <ProjectFileVersion>12</ProjectFileVersion>
+    </ProjectExtensions>
+</Project>

@@ -1,0 +1,26 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <DCC_UsePackage>vclwinx;DataSnapServer;lmdrtgrid;fmx;emshosting;vclie;DbxCommonDriver;bindengine;IndyIPCommon;VCLRESTComponents;DBXMSSQLDriver;FireDACCommonODBC;emsclient;FireDACCommonDriver;lmdrtbar;appanalytics;IndyProtocols;vclx;lmdrtscriptimp;TMSCryptoPkgDEDXE14;IndyIPClient;dbxcds;vcledge;ngvalidators;bindcompvclwinx;FmxTeeUI;emsedge;bindcompfmx;DBXFirebirdDriver;inetdb;lmdrtsys;ngcommon;nghtml;FireDACSqliteDriver;DbxClientDriver;lmdrtdesign;FireDACASADriver;lmdrtsearchdb;Tee;soapmidas;vclactnband;TeeUI;fmxFireDAC;dbexpress;lmdrtspell;FireDACInfxDriver;lmdrtelcore;DBXMySQLDriver;VclSmp;inet;DataSnapCommon;lmdrtchart;sbridge280;lmdrtrtfdb;vcltouch;fmxase;DBXOdbcDriver;lmdrtplugin;dbrtl;FireDACDBXDriver;FireDACOracleDriver;fmxdae;TeeDB;lmdrtsearch;FireDACMSAccDriver;CustomIPTransport;FireDACMSSQLDriver;lmdrtthemes;DataSnapIndy10ServerTransport;lmdrtcore;lmdrtide;lmdrtstorage;DataSnapConnectors;vcldsnap;DBXInterBaseDriver;FireDACMongoDBDriver;lmdrtfx;IndySystem;lmdrtl;ngvldtctrls;FireDACTDataDriver;lmdrtinspector;lmdrtrtf;lmdrtsyntax;vcldb;ngdragdrop;ngdialogs;lmdrtshell;vclFireDAC;bindcomp;FireDACCommon;DataSnapServerMidas;FireDACODBCDriver;emsserverresource;lmdrtweb;lmdrtelpro;IndyCore;RESTBackendComponents;bindcompdbx;TMSCryptoPkgDXE14;lmdrttools;lmdrtdialog;rtl;FireDACMySQLDriver;lmdrtdocking;FireDACADSDriver;RESTComponents;DBXSqliteDriver;vcl;IndyIPServer;dsnapxml;dsnapcon;DataSnapClient;DataSnapProviderClient;adortl;DBXSybaseASEDriver;DBXDb2Driver;lmdrteldb;lmdrttoolsdb;vclimg;DataSnapFireDAC;emsclientfiredac;FireDACPgDriver;FireDAC;FireDACDSDriver;inetdbxpress;xmlrtl;tethering;bindcompvcl;dsnap;lmdrtchartdb;lmdrtprint;CloudService;DBXSybaseASADriver;DBXOracleDriver;FireDACDb2Driver;DBXInformixDriver;lmdrtrtlx;fmxobj;bindcompvclsmp;DataSnapNativeClient;FMXTee;lmdrtscript;DatasnapConnectorsFreePascal;soaprtl;soapserver;FireDACIBDriver;$(DCC_UsePackage)</DCC_UsePackage>
+        <DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
+        <BT_BuildType>Debug</BT_BuildType>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName)_x32;FileVersion=3.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProgramID=ptz.$(MSBuildProjectName)_x32;ProductName=Авторасчет для Fronius 3;ProductVersion=3.0;Comments=</VerInfo_Keys>
+        <VerInfo_Locale>1049</VerInfo_Locale>
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+        <UWP_DelphiLogo44>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_44.png</UWP_DelphiLogo44>
+        <UWP_DelphiLogo150>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_150.png</UWP_DelphiLogo150>
+        <DCC_DcpOutput>tms\$(Platform)\$(Config)</DCC_DcpOutput>
+        <AppDPIAwarenessMode>none</AppDPIAwarenessMode>
+        <DCC_BplOutput>tms\$(Platform)\$(Config)</DCC_BplOutput>
+        <VerInfo_AutoGenVersion>true</VerInfo_AutoGenVersion>
+        <VerInfo_MajorVer>3</VerInfo_MajorVer>
+    </PropertyGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Delphi.Personality.12</Borland.Personality>
+        <Borland.ProjectType>OptionSet</Borland.ProjectType>
+        <BorlandProject>
+            <Delphi.Personality/>
+        </BorlandProject>
+        <ProjectFileVersion>12</ProjectFileVersion>
+    </ProjectExtensions>
+</Project>

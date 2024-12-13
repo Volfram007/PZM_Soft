@@ -1,0 +1,35 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <DCC_UsePackage>fmx;DbxCommonDriver;bindengine;IndyIPCommon;emsclient;FireDACCommonDriver;IndyProtocols;IndyIPClient;dbxcds;FmxTeeUI;bindcompfmx;FireDACSqliteDriver;DbxClientDriver;soapmidas;fmxFireDAC;dbexpress;inet;DataSnapCommon;dbrtl;FireDACDBXDriver;CustomIPTransport;DBXInterBaseDriver;IndySystem;bindcomp;FireDACCommon;IndyCore;RESTBackendComponents;bindcompdbx;rtl;RESTComponents;DBXSqliteDriver;IndyIPServer;dsnapxml;DataSnapClient;DataSnapProviderClient;DataSnapFireDAC;emsclientfiredac;FireDAC;FireDACDSDriver;xmlrtl;tethering;dsnap;CloudService;DataSnapNativeClient;FMXTee;soaprtl;soapserver;FireDACIBDriver;$(DCC_UsePackage)</DCC_UsePackage>
+        <VerInfo_Keys>package=ptz.$(MSBuildProjectName);label=Авторасчет Fronius 3x64;versionCode=3;versionName=3.0.0;persistent=False;restoreAnyVersion=False;installLocation=auto;largeHeap=False;theme=TitleBar;hardwareAccelerated=true;apiKey=</VerInfo_Keys>
+        <BT_BuildType>Debug</BT_BuildType>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <Android_LauncherIcon36>Icon PNG\Icon\90b0cb31-7dff-439b-8d6d-ee4e773b2e20_36x36.png</Android_LauncherIcon36>
+        <Android_LauncherIcon48>Icon PNG\Icon\90b0cb31-7dff-439b-8d6d-ee4e773b2e20_48x48.png</Android_LauncherIcon48>
+        <Android_LauncherIcon72>Icon PNG\Icon\90b0cb31-7dff-439b-8d6d-ee4e773b2e20_72x72.png</Android_LauncherIcon72>
+        <Android_LauncherIcon96>Icon PNG\Icon\90b0cb31-7dff-439b-8d6d-ee4e773b2e20_96x96.png</Android_LauncherIcon96>
+        <Android_LauncherIcon144>Icon PNG\Icon\90b0cb31-7dff-439b-8d6d-ee4e773b2e20_144x144.png</Android_LauncherIcon144>
+        <Android_LauncherIcon192>Icon PNG\Icon\90b0cb31-7dff-439b-8d6d-ee4e773b2e20_192x192.png</Android_LauncherIcon192>
+        <Android_SplashImage426>Icon PNG\Фон\_crazy_welder_e7b05c2e-6b5d-4f35-9f66-f897d6d04df3_426x320.png</Android_SplashImage426>
+        <Android_SplashImage470>Icon PNG\Фон\_crazy_welder_e7b05c2e-6b5d-4f35-9f66-f897d6d04df3_470x320.png</Android_SplashImage470>
+        <Android_SplashImage640>Icon PNG\Фон\_crazy_welder_e7b05c2e-6b5d-4f35-9f66-f897d6d04df3_640x480.png</Android_SplashImage640>
+        <Android_SplashImage960>Icon PNG\Фон\_crazy_welder_e7b05c2e-6b5d-4f35-9f66-f897d6d04df3_960x720.png</Android_SplashImage960>
+        <Android_NotificationIcon24>$(BDS)\bin\Artwork\Android\FM_NotificationIcon_24x24.png</Android_NotificationIcon24>
+        <Android_NotificationIcon36>$(BDS)\bin\Artwork\Android\FM_NotificationIcon_36x36.png</Android_NotificationIcon36>
+        <Android_NotificationIcon48>$(BDS)\bin\Artwork\Android\FM_NotificationIcon_48x48.png</Android_NotificationIcon48>
+        <Android_NotificationIcon72>$(BDS)\bin\Artwork\Android\FM_NotificationIcon_72x72.png</Android_NotificationIcon72>
+        <Android_NotificationIcon96>$(BDS)\bin\Artwork\Android\FM_NotificationIcon_96x96.png</Android_NotificationIcon96>
+        <DCC_DcpOutput>tms\$(Platform)\$(Config)</DCC_DcpOutput>
+        <DCC_BplOutput>tms\$(Platform)\$(Config)</DCC_BplOutput>
+        <VerInfo_Build>3</VerInfo_Build>
+        <Android_NotificationAccentColor>#000000</Android_NotificationAccentColor>
+    </PropertyGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Delphi.Personality.12</Borland.Personality>
+        <Borland.ProjectType>OptionSet</Borland.ProjectType>
+        <BorlandProject>
+            <Delphi.Personality/>
+        </BorlandProject>
+        <ProjectFileVersion>12</ProjectFileVersion>
+    </ProjectExtensions>
+</Project>

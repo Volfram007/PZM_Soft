@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{E5708412-2132-4E3F-BA81-649ED9D8EFFB}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="WeldingAccountOffline\WeldingOffline.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="AutoToolsFronius\ToolsFronius.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="WeldingOffline">
+        <MSBuild Projects="WeldingAccountOffline\WeldingOffline.dproj"/>
+    </Target>
+    <Target Name="WeldingOffline:Clean">
+        <MSBuild Projects="WeldingAccountOffline\WeldingOffline.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="WeldingOffline:Make">
+        <MSBuild Projects="WeldingAccountOffline\WeldingOffline.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ToolsFronius">
+        <MSBuild Projects="AutoToolsFronius\ToolsFronius.dproj"/>
+    </Target>
+    <Target Name="ToolsFronius:Clean">
+        <MSBuild Projects="AutoToolsFronius\ToolsFronius.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ToolsFronius:Make">
+        <MSBuild Projects="AutoToolsFronius\ToolsFronius.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="WeldingOffline;ToolsFronius"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="WeldingOffline:Clean;ToolsFronius:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="WeldingOffline:Make;ToolsFronius:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
